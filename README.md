@@ -15,7 +15,7 @@ Note that all assignments are run on the Khoury web servers: `ssh your_user_name
 
 # The Monorepo
 
-Welcome to Computer Systems! This repository will be how to retrieve homework assignments and in-class lab assignments.
+Welcome! This repository will be how to retrieve homework assignments and in-class lab assignments for this course,
 
 Okay, let's get started!
 
@@ -25,11 +25,12 @@ If you are not familiar with git, you can quickly learn the basics of how it wor
 * An interactive tutorial: 
   * https://www.codecademy.com/learn/learn-git
 
-## github and this course
+## Github and this course
 
-This course utilizes git because:
+This course utilizes github because:
 
 - It is good real world skill to have.
+- Github is the website which provides a service to store our files, and 'git' is the version control system.
 - It is easy for me to monitor your progress and receive your assignments for grading.
   - (You will also never e-mail me code snippets, I can just look!)
 - In order to receive your assignments, you simply do 'git pull' after I have released them.
