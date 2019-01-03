@@ -1,7 +1,7 @@
 # Spring 19 Algorithms Monorepo
 
-# Your name here (TODO: Change this heading to your name)
-# Phonetic spelling of your name here (TODO: Change this)
+* *Your name here* **(TODO: Change this heading to your name)**
+* *Phonetic spelling of your name here* **(TODO: Change this)**
 
 ## Partners Spreadsheet
 (Lookup your lab partner(s) here) 
