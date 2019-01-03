@@ -40,6 +40,16 @@ This course utilizes github because:
 
 That being said, I can only grade what you have **pushed** to your repo. Make sure to push your latest changes to your repo. The timestamp tells me when your file was submitted as well.
 
+## Logistics
+For all assignments, you must login into the servers through `your_khoury_name@login.khoury.neu.edu` to complete the assignments. The reason is because the examples I will provide below are compiled strictly for our machines architecture, and this is where your submission will be graded. While it is true you can probably do much of the assignments locally (if you have a Mac, Windows Terminal, or Linux machine), you **must** make sure your submissions work on the Khoury servers.
+
+## Monorepo
+
+A monorepo is known as a 'monolithic' repository. Companies like Google for instance have nearly all of their code from every single employee in one single repository. Some companies choose to have many separate repositories. Which strategy would you think is better? Take a moment to think about it, and you can read more on the 'why' (at least for Google) and other companies below: 
+
+* https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
+* https://danluu.com/monorepo/
+
 ## FAQ
 
 - Q: May I upload the github to a public repository for prospective employers to see?
@@ -50,13 +60,3 @@ That being said, I can only grade what you have **pushed** to your repo. Make su
     - The course actually has a final project, which is a unique idea (i.e. not assignment or series of assignments) that you or a team developed from scratch.
     - You acknowledge your team members for their contributions.
     - You remove the README.md provided with the assignment (delete it entirely from your github history), as you'll want your own readme anyway.
-
-## Logistics
-For all assignments, you must login into the servers through `your_khoury_name@login.khoury.neu.edu` to complete the assignments. The reason is because the examples I will provide below are compiled strictly for our machines architecture, and this is where your submission will be graded. While it is true you can probably do much of the assignments locally (if you have a Mac, Windows Terminal, or Linux machine), you **must** make sure your submissions work on the Khoury servers.
-
-## Monorepo
-
-A monorepo is known as a 'monolithic' repository. Companies like Google for instance have nearly all of their code from every single employee in one single repository. Some companies choose to have many separate repositories. Which strategy would you think is better? Take a moment to think about it, and you can read more on the 'why' (at least for Google) and other companies below: 
-
-* https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
-* https://danluu.com/monorepo/
