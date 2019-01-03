@@ -3,29 +3,29 @@
 # Your name here (TODO: Change this heading to your name)
 # Phonetic spelling of your name here (TODO: Change this)
 
-# Partners Spreadsheet
+## Partners Spreadsheet
 (Lookup your lab partner(s) here) 
 https://docs.google.com/spreadsheets/d/1ORbEDLNAFzAMT4FbUeMy1wUdxxUpqs7wNUR8s4OUByY/edit?usp=sharing
 
-# Obtaining a Khoury account
+## Obtaining a Khoury account
 
 Note that all assignments are run on the Khoury web servers: `ssh your_user_name@login.khoury.neu.edu`
 
 [Creating a Khoury account if you need one](https://www.khoury.northeastern.edu/systems/getting-started/) 
 
-# The Monorepo
+## The Monorepo
 
 Welcome! This repository will be how to retrieve homework assignments and in-class lab assignments for this course,
 
 Okay, let's get started!
 
-## Learning git
+### Learning git
 If you are not familiar with git, you can quickly learn the basics of how it works in about 15 minutes.
 
 * An interactive tutorial: 
   * https://www.codecademy.com/learn/learn-git
 
-## Github and this course
+### Github and this course
 
 This course utilizes github because:
 
@@ -38,7 +38,7 @@ This course utilizes github because:
 
 That being said, I can only grade what you have **pushed** to your repo. Make sure to push your latest changes to your repo. The timestamp tells me when your file was submitted as well.
 
-### FAQ
+## FAQ
 
 - Q: May I upload the github to a public repository for prospective employers to see?
   - A: **No**. You may not upload any assignments. This is for your protection in case assignments or parts of assignments are reused. You *may* list the project on your resume/CV if you like, and provide the code upon request to the employer. You could additionally provide a webpage describing the project, showing screenshots, and discussing high-level ideas of how you solved the project.
