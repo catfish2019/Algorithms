@@ -11,7 +11,7 @@ https://docs.google.com/spreadsheets/d/1ORbEDLNAFzAMT4FbUeMy1wUdxxUpqs7wNUR8s4OU
 
 ## Obtaining a Khoury account
 
-Note that all assignments are run on the Khoury web servers: `ssh your_user_name@login.khoury.neu.edu`
+Note that all assignments are tested and graded on the Khoury web servers: `ssh your_user_name@login.khoury.neu.edu` (i.e. running an assignment on your Mac, is NOT the same environment as our Khoury servers which run a linux system).
 
 [Creating a Khoury account if you need one](https://www.khoury.northeastern.edu/systems/getting-started/) 
 
