@@ -9,7 +9,7 @@ In this lab, you are going to perform a few terminal commands to get familiar wi
 
 # So many tools -- video tutorial!
 
-For this first lab, a video tutorial will be provided. Try to work through it, but if you get stuck you can follow along the video later. Remember, labs are due at the start of class the following week--so you get one week to submit your lab. You and your partner should both make individual submissions.
+For this first lab, a video tutorial will be provided. Try to work through the lab during class time, but if you get stuck you can follow along the video later on. Remember, labs are due at the start of class the following week--so you get one week to submit your lab. You and your partner should both make individual submissions.
 
 ## Part 0.5 - Obtain the mono repo
 
