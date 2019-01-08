@@ -48,13 +48,109 @@ Here are some suggested resources to get started.
 > It was interesting to see what different tools other computer scientists would use. Whether it was different text editors, short-cuts, plugin-ins, etc.
 > Establishing a good workflow can even be part of the fun!
 
+## Compiling and running this assignment
+
+For this assignemnt, you may use the [clang](https://clang.llvm.org/) or [gcc](https://www.gnu.org/software/gcc/) compiler. Both are industry standard compilers for compiling C programs (in addition to many other programming languages). Sometimes trying different compilers will given you more informative or helpful error messages--either one is perfectly fine for this course!
+
+Here is how you will compile your code on the terminal.
+
+`clang main.c -o main`
+
+or
+
+`gcc main.c -o main`
+
+Both achieve the same thing. 
+
+* First the compiler is specified.
+* Then a 'space' follows, and then the '.c' file we want to compile.
+* `-o` is a flag abbreviated for output. Items that begin with *dash marks* in general are compiler flags.
+  * In this case the 'output' file we will generate(if there are no errors) will be called 'main'
+  * Note: This 'main' file is a binary file that we can execute. This is different than 'main.c' which has the .c extension, and is a text file.
+  
+Finally, to execute your program, you will type in: `./main`
+
 # Part 2 - Guessing Game in C
+
+- Randomly generate a number from 1 to 10.
+- Take user input from user to guess the randomly generated number.
+- When the user guesses the correct answer, output that they have finished.
+
 
 Implement in the main.c file. Do not forget to 'push' your changes.
 
 TBD
 
 
+### Sample Correct output 
+
+```
+-bash-4.2$ clang main.c -o main
+-bash-4.2$ ./main
+==========================
+CPU Says: Pick a number 1-10
+==========================
+Make a guess:1
+No guess higher!
+Make a guess:2
+No guess higher!
+Make a guess:3
+No guess higher!
+Make a guess:4
+No guess higher!
+Make a guess:5
+No guess higher!
+Make a guess:6
+No guess higher!
+Make a guess:7
+No guess higher!
+Make a guess:8
+You got it!
+==========================
+CPU Says: Pick a number 1-10
+==========================
+Make a guess:5
+No guess higher!
+Make a guess:7
+No guess lower!
+Make a guess:6
+You got it!
+==========================
+CPU Says: Pick a number 1-10
+==========================
+Make a guess:5
+No guess higher!
+Make a guess:8
+You got it!
+==========================
+CPU Says: Pick a number 1-10
+==========================
+Make a guess:5
+No guess higher!
+Make a guess:8
+No guess higher!
+Make a guess:9
+You got it!
+==========================
+CPU Says: Pick a number 1-10
+==========================
+Make a guess:5
+No guess lower!
+Make a guess:3
+No guess lower!
+Make a guess:1
+No guess higher!
+Make a guess:2
+You got it!
+=================================================
+|Here are the results of your guessing abilities|
+=================================================
+Game 0 took you 8 guesses
+Game 1 took you 3 guesses
+Game 2 took you 2 guesses
+Game 3 took you 3 guesses
+Game 4 took you 4 guesses
+```
 
 
 # Resources to help
