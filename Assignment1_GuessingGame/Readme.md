@@ -11,7 +11,7 @@
 
 # Prompt
 
-<img align="right" width="200px" src="./media/cardtrick.jpg">
+<img align="right" width="250px" src="./media/cardtrick.jpg">
 
 I was always impressed by those folks at the amusement parks and country fairs who could perform magic tricks. I even remember once getting a booklet where if you asked someone enough questions in a row, you could guess their date of birth. It was a sort of neat magic trick, but back then (when I was about five years old) I did not realize I was being tricked by not a circus act, but instead by a programmer! 
 
