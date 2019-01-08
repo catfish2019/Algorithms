@@ -86,14 +86,19 @@ This is the full "Edit, Save, compile, and run" cycle.
 
 # Part 2 - Guessing Game in C
 
-- Randomly generate a number from 1 to 10.
-- Take user input from user to guess the randomly generated number.
+<img align="right" width="200px" src="./media/guess.jpg">
+
+It is now time to implement the guessing game in **main.c**. The requirements of the program are as follows:
+
+- You will play the guessing game a total of 5 times in a row.
+- Each round a new number must be randomly generated generate a number from 1 to 10.
+- The user will guess the number.
+  - If the number is correct, then the game ends.
+  - If the number is wrong, then a hint should be provided whether the correct number is higher or lower.
+- Each time a user guesses, you should increment how many guesses the user has made for the round.
 - When the user guesses the correct answer, output that they have finished.
-
-
-Implement in the main.c file. Do not forget to 'push' your changes.
-
-TBD
+  - Then either start a new game, or if 5 rounds have been played then output the summary of how many guesses the user made over 5 games.
+- You should use an 'array' data structure to store the number of guesses made each round.
 
 
 ### Sample Correct output 
@@ -166,16 +171,28 @@ Game 3 took you 3 guesses
 Game 4 took you 4 guesses
 ```
 
+(Yes...I do often count from 0--remember the C langauge is 0-indexed!)
 
 # Resources to help
 
-
+* [Learn C Interactive Tutorial](http://www.learn-c.org/)
 
 # Rubric
 
 * 100% Guessing Game
-    * %50 Program Style
-	* %50 Program Correctnesss
+    * %30 Program Style
+    	* Was your program nicely indented?
+	* Did you have variable names that are properly named?
+	* Are your variables in the appropriate scope (i.e. not all globally accessible)
+    * %80 Program Correctnesss
+    	* Was a new random number generated each game?
+	* Was a number 1-10 generated?
+	* Did you 'reset' the number of guesses after each round?
+	* Were there any 'off by 1 errors' in your game?
+	* Did you output the final number of guesses?
+	* Did your game run exactly 5 times?
+	* Did your program give an appropriate hint of higher or lower?
+	* Did you use an array to store the number of guesses?
 
 
 ### Important notes
