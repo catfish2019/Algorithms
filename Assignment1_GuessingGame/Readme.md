@@ -72,6 +72,18 @@ Both achieve the same thing.
   
 Finally, to execute your program, you will type in: `./main`
 
+## Overall workflow
+
+So the overall workflow for completing this assignment will likely be something like:
+
+1. Open up the VIM text editor (and perhaps use multiple panes with tmux)
+2. Write or change a very small number of lines of code (sometimes just one change!)
+3. Save and then close the text file (in Vim lingo this is writing to the current text file)
+4. Recompile your program
+5. Run your program, and see if it meets your assumptions.
+
+This is the full "Edit, Save, compile, and run" cycle.
+
 # Part 2 - Guessing Game in C
 
 - Randomly generate a number from 1 to 10.
