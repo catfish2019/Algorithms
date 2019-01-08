@@ -7,7 +7,7 @@ That was a prompt I was given when interviewing for LinkedIn several years ago, 
 
 In this lab, you are going to perform a few terminal commands to get familiar with the Unix Environment.
 
-# Vdeo tutorial of Lab 1
+# Video tutorial of Lab 1
 
 For this first lab, a video tutorial will be provided because there can be so many new tools/infrastructure being introduced. 
 
