@@ -180,7 +180,7 @@ Game 3 took you 3 guesses
 Game 4 took you 4 guesses
 ```
 
-(Yes...I do often count from 0--remember the C langauge is 0-indexed!)
+(Game 0? Yes...I do often count from 0--remember the C langauge is 0-indexed!)
 
 
 # Resources to help
