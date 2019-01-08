@@ -86,7 +86,7 @@ This is the full "Edit, Save, compile, and run" cycle.
 
 # Part 2 - Guessing Game in C
 
-<img align="right" width="200px" src="./media/guess.jpg">
+<img align="right" width="300px" src="./media/guess.jpg">
 
 It is now time to implement the guessing game in **main.c**. The requirements of the program are as follows:
 
