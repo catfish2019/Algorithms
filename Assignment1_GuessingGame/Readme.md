@@ -101,7 +101,16 @@ It is now time to implement the guessing game in **main.c**. The requirements of
 - You should use an 'array' data structure to store the number of guesses made each round.
 
 
-### Sample Correct output 
+## Helpful hints
+
+1. If you would like, while you are 'debugging' your program, you can print out the correct answer to shorten iteration time. Be sure not to do this for your final version however!
+2. There is a handy function called `rand` found in the stdlib.h for generating random numbers. You will want to think about how to use it.
+3. Additionally, you will want to think about how to get user input. For this assignment, you should only need to read in a single numerical value.
+
+
+### Sample of Correct output 
+
+Below is a sample of a correct iteration of the game. You can make your display 'prettier' if you like, but at a minimum it should look similar to the output below. 
 
 ```
 -bash-4.2$ clang main.c -o main
@@ -172,6 +181,7 @@ Game 4 took you 4 guesses
 ```
 
 (Yes...I do often count from 0--remember the C langauge is 0-indexed!)
+
 
 # Resources to help
 
