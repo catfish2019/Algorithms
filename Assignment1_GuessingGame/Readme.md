@@ -29,7 +29,7 @@ For this assignment (and every assignment/lab), you must login into the servers 
 
 (Note this part is ungraded--but you are required to do it!)
 
-Figuring out a good workflow on Unix, Mac, (and even windows) is an important part of becoming a good programmer. My work environment (and the suggested one so I can help you during class), is to use the combination of the VIM text editor and tmux window manager to program your assignments in.
+Figuring out a good workflow on Unix, Mac, and windows is an important part of becoming a good programmer. My work environment (and the suggested one so I can help you during class), is to use the combination of the [VIM text editor](https://www.vim.org/docs.php) and [tmux window manager](https://en.wikipedia.org/wiki/Tmux) to program your assignments in.
 
 ### Student and Teacher Dialouge
 
