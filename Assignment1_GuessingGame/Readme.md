@@ -177,9 +177,13 @@ Game 4 took you 4 guesses
     * %50 Program Style
 	* %50 Program Correctnesss
 
-* Note: Your code **must** run on the Khoury machines. That is where you should test it, and this is where we grade it!
-* Note: You must also commit any additional files into your repository so we can test your code.
+
+### Important notes
+
+* Note: Your code **must** compile and run on the Khoury machines. Make sure you test your programs on these machines, as this is where we grade your assignments.
+* Note: You must commit any additional files(if any) into your repository so we can test your code.
   * Points will be lost if you forget!
+* And do not forget, if we do not see your most recent changes 'pushed into this repository' (i.e. what you see on github.com), then we cannot grade them. Updates to the repository must be before the assignment deadline!
 
 # Feedback Loop
 
