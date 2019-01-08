@@ -5,7 +5,7 @@
 
 ## Partners Spreadsheet
 (Lookup your weekly lab partner(s) here) 
-https://docs.google.com/spreadsheets/d/1ORbEDLNAFzAMT4FbUeMy1wUdxxUpqs7wNUR8s4OUByY/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1qVc8nBY6Yi-S0Jd9D6641zo9rdCBRMKoUMPvqxOhaLE/edit?usp=sharing
 
 *Note: It may be helpful to review this spreadsheet before each class, but I will typically put up the partners spreadsheet before lab starts. If you know you will be sick or otherwise miss class, e-mailing me beforehand helps me rearrange teams.*
 
