@@ -216,5 +216,5 @@ Game 4 took you 4 guesses
 
 (An optional task that will reinforce your learning throughout the semester)
 
-tbd
+Keep trying 'C' programming exercises from 'The C Programming Language' book or learn-c.org
 
