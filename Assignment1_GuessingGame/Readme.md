@@ -190,19 +190,19 @@ Game 4 took you 4 guesses
 # Rubric
 
 * 100% Guessing Game
-    * %30 Program Style
-    	* Was your program nicely indented?
-	* Did you have variable names that are properly named?
-	* Are your variables in the appropriate scope (i.e. not all globally accessible)
-    * %80 Program Correctnesss
-    	* Was a new random number generated each game?
-	* Was a number 1-10 generated?
-	* Did you 'reset' the number of guesses after each round?
-	* Were there any 'off by 1 errors' in your game?
-	* Did you output the final number of guesses?
-	* Did your game run exactly 5 times?
-	* Did your program give an appropriate hint of higher or lower?
-	* Did you use an array to store the number of guesses?
+    * 30% Program Style
+      * Was your program nicely indented?
+      * Did you have variable names that are properly named?
+      * Are your variables in the appropriate scope (i.e. not all globally accessible)
+    * 80% Program Correctnesss
+      * Was a new random number generated each game?
+      * Was a number 1-10 generated?
+      * Did you 'reset' the number of guesses after each round?
+      * Were there any 'off by 1 errors' in your game?
+      * Did you output the final number of guesses?
+      * Did your game run exactly 5 times?
+      * Did your program give an appropriate hint of higher or lower?
+      * Did you use an array to store the number of guesses?
 
 
 ### Important notes
