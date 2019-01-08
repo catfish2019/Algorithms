@@ -101,7 +101,7 @@ It is now time to implement the guessing game in **main.c**. The requirements of
 - You should use an 'array' data structure to store the number of guesses made each round.
 
 
-## Helpful hints
+### Helpful hints
 
 1. If you would like, while you are 'debugging' your program, you can print out the correct answer to shorten iteration time. Be sure not to do this for your final version however!
 2. There is a handy function called `rand` found in the stdlib.h for generating random numbers. You will want to think about how to use it.
