@@ -7,7 +7,11 @@ That was a prompt I was given when interviewing for LinkedIn several years ago, 
 
 In this lab, you are going to perform a few terminal commands to get familiar with the Unix Environment.
 
-## Part 0 - Obtain the mono repo
+# So many tools -- video tutorial!
+
+For this first lab, a video tutorial will be provided. Try to work through it, but if you get stuck you can follow along the video later. Remember, labs are due at the start of class the following week--so you get one week to submit your lab. You and your partner should both make individual submissions.
+
+## Part 0.5 - Obtain the mono repo
 
 1. Make sure you have accepted the invitation to the monorepo from the main course page.
 2. Run through the following github tutorial if you are not familiar with git.
