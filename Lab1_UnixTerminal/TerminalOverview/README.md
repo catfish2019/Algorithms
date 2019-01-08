@@ -151,6 +151,8 @@ Again, if you have a linux machine you may not need a virtual machine. What is n
 - Hackerrank has an excellent series of shell tutorials here: https://www.hackerrank.com/domains/shell/bash
   - I highly recommend going through them if you are not comfortable with the shell.
 - **If you accidently delete something** you can navigate to `cd .snapshot/` which will show files that have been periodically backed up for that current directory. This is yet anothe reason to make sure you are working within the CCIS systems which provide this backup service.
+- A pretty good introduction to shell scripting is here: https://www.howtogeek.com/67469/the-beginners-guide-to-shell-scripting-the-basics/ .
+
 
 ## Deliverable
 
@@ -158,10 +160,12 @@ Again, if you have a linux machine you may not need a virtual machine. What is n
   * Make sure to 'add/commit/push' this file to the repo in this directory.
 * Modify the file called 'main.c' in your respository containing the power example.
   * Make sure to 'add/commit/push' this file to the repo in this directory.
-  
+* Take a screenshot of your virtual environment running. Name it 'linux.jpg'
+  * Make sure to 'commit' this file to the repo in this directory.
+
 ## Going Further
 
-(Some more programs to research and try out
+(Some more terminal programs to research and try out on your own time)
 
 1. history
 2. tree
