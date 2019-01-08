@@ -44,12 +44,17 @@ Try your best to work through the lab during class time, but if you get stuck yo
 When you have successfully ssh'd into your repository (Part 1) you should download a copy of your repository on the Khoury servers. The rough workflow for using git is the following.
 
 1. Run `git clone your_repository_url` to establish a git repository on your system. *your_repository_url* is found by clicking the 'green' button on you Monorepo homepage(move one directory up from this folder).
-  i. It should look something like `https://github.com/CourseName/Monorepo-yourname.git`
+
+	i. It should look something like `https://github.com/CourseName/Monorepo-yourname.git`
 	
 2. When you make a change to a file within this directory you can see what is different by:
-  i. run `git status` to see what you have changed locally on your computer. Changes you have made locally have not yet been saved to github's servers. 
+
+	i. run `git status` to see what you have changed locally on your computer. Changes you have made locally have not yet been saved to github's servers. 
+
 3. When you are happy with your changes do `git add whatever_file.c` which prepares that specific file to be added to the master. [[git add documentation](https://git-scm.com/docs/git-add)]
+
 4. Next, you will do `git commit -m "some informative message about your changes"` to record changes in your repository [[git-commit documentation](https://git-scm.com/docs/git-commit)]
+
 5. Finally, do a `git push` to actually make things happen--meaning everything you have added will go to the github server. You can check your github.com repository to see exactly what I will see. [[git push documentation](https://git-scm.com/docs/git-push)]
 
 A cheatsheet has been added to the repository (Under /ExternalResources) that may be helpful!
