@@ -16,7 +16,7 @@ Try your best to work through the lab during class time, but if you get stuck yo
 **Playlist starts here!**
 https://www.youtube.com/watch?v=HjZVOWAGgZQ&list=PLvv0ScY6vfd8qupx0owF78ZcbvySvbWfx
 
-<img width="150px" src="./images/playlist.jpg">
+<img width="150px" src="./images/playlist.JPG">
 
 ## Part 0 - Obtain the mono repo
 
