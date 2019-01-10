@@ -13,6 +13,11 @@ For this first lab, a video tutorial will be provided because there can be so ma
 
 Try your best to work through the lab during class time, but if you get stuck you can follow along the video later on. Remember, labs are due at the start of class the following week--so you get one week to submit your lab. You and your partner should both make individual submissions.
 
+**Playlist starts here!**
+https://www.youtube.com/watch?v=HjZVOWAGgZQ&list=PLvv0ScY6vfd8qupx0owF78ZcbvySvbWfx
+
+<img width="150px" src="./images/playlist.jpg">
+
 ## Part 0 - Obtain the mono repo
 
 1. Make sure you have accepted the invitation to the monorepo from the main course page.
