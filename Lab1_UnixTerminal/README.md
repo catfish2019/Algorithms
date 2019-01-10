@@ -33,9 +33,9 @@ Try your best to work through the lab during class time, but if you get stuck yo
 * We additionally will install a virtual machine which you may work from, and which has a terminal.
 
 ### ssh'ing
-* Once your terminal is open, 'ssh' into ccis with: `ssh ccis_user_name_here@login.khoury.neu.edu`
+* Once your terminal is open, 'ssh' into Khoury with: `ssh khoury_user_name_here@login.khoury.neu.edu`
   * If for some reason you do not have a Khoury username, [follow these instructions](https://www.khoury.northeastern.edu/systems/getting-started/)
-* After you have successfully ssh'd, you are now running programs on the ccis servers (i.e. not locally on your machine).
+* After you have successfully ssh'd, you are now running programs on the Khoury servers (i.e. not locally on your machine).
 
 <center><img align="center"  src="./images/ssh.PNG"></center>
 
@@ -107,7 +107,7 @@ Complete the 'Learn the Basics' section of the C tutorial on the web from http:/
 - Functions
 - Static
 
-Once you are comfortable write a C program on the ccis machines in the file **main.c**.
+Once you are comfortable write a C program on the Khoury machines in the file **main.c**.
 
 1. The program will contain a function with the signature 'double power(double base, double n)'.
 2. Your program will call this function in a loop in the main function, computing the first power(2,1) to power(2,10) and print out these results to the terminal.  
@@ -117,14 +117,14 @@ Here is a little tutorial on VIM as a resource: https://www.howtoforge.com/vim-b
 
 # Part 4 - The Network is down! How to work locally.
 
-Sometimes ssh is not available if the internet is not. Hmm, how will we then work on our CCIS machines which are in a linux environment? The solution is to install locally (i.e. your desktop machine) a virtual machine. A virtual machine emulates an entire operating system!
+Sometimes ssh is not available if the internet is not. Hmm, how will we then work on our Khoury machines which are in a linux environment? The solution is to install locally (i.e. your desktop machine) a virtual machine. A virtual machine emulates an entire operating system!
 
 The instructions to get setup are here:
 
 **Note** If you are on windows and have the Windows Linux Subsystem, you can submit a screenshot of that running. That *should be* sufficient for most things in this course. And if you are using linux...just submit a screenshot of your desktop (You may still find the exercise useful however--especially if you want to test software on multiple OS's).
 
 * First start downloading the operating system I recommend using: Ubuntu https://www.ubuntu.com/download/desktop
-  * While our CCIS machines are actually CentOS for the operating system, Ubuntu will work just fine (They core kernel is the same).
+  * While our Khoury machines are actually CentOS for the operating system, Ubuntu will work just fine (They core kernel is the same).
   * The download is rather large, so start with this step! :)
 * Visit https://www.virtualbox.org/
 * Download the binary for Virtual box 5.2 or later.
@@ -156,7 +156,7 @@ Again, if you have a linux machine you may not need a virtual machine. What is n
 - If you are not comfortable with compiling a C program on the terminal, take a look at this resource: https://www.cs.fsu.edu/~myers/howto/g++compiling.txt
 - Hackerrank has an excellent series of shell tutorials here: https://www.hackerrank.com/domains/shell/bash
   - I highly recommend going through them if you are not comfortable with the shell.
-- **If you accidently delete something** you can navigate to `cd .snapshot/` which will show files that have been periodically backed up for that current directory. This is yet anothe reason to make sure you are working within the CCIS systems which provide this backup service.
+- **If you accidently delete something** you can navigate to `cd .snapshot/` which will show files that have been periodically backed up for that current directory. This is yet anothe reason to make sure you are working within the Khoury systems which provide this backup service.
 - A pretty good introduction to shell scripting is here: https://www.howtogeek.com/67469/the-beginners-guide-to-shell-scripting-the-basics/ .
 
 
