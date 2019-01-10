@@ -101,16 +101,18 @@ Each of these commands are part of the coreutils package in Unix. If you look th
 The main programming language we will be using in this course is "C".
 
 Complete the 'Learn the Basics' section of the C tutorial on the web from http://www.learn-c.org/
+(If for some reason learn-c.org is down, run through the examples provided in the slides)
 
-- Hello, World!
-- Variables and Types
-- Arrays
-- Multidimensional Arrays
-- Strings
-- For loops
-- While loops
-- Functions
-- Static
+- [Hello, World!](http://www.learn-c.org/en/Hello%2C_World%21)
+- [Variables and Types](http://www.learn-c.org/en/Variables_and_Types)
+- [Arrays](http://www.learn-c.org/en/Arrays)
+- [Multidimensional Arrays](http://www.learn-c.org/en/Multidimensional_Arrays)
+- [Conditions](http://www.learn-c.org/en/Conditions)
+- [Strings](http://www.learn-c.org/en/Strings)
+- [For loops](http://www.learn-c.org/en/For_loops)
+- [While loops](http://www.learn-c.org/en/While_loops)
+- [Functions](http://www.learn-c.org/en/Functions)
+- [Static](http://www.learn-c.org/en/Static)
 
 Once you are comfortable write a C program on the Khoury machines in the file **main.c**.
 
