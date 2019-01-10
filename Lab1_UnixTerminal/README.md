@@ -5,7 +5,7 @@
 
 That was a prompt I was given when interviewing for LinkedIn several years ago, and that was not the first time someone had asked me about the terminal at an interview! It's not that you should memorize 10 terminal commands, but rather you should understand that working on the terminal is an essential skill.
 
-In this lab, you are going to perform a few terminal commands to get familiar with the Unix Environment.
+In this lab, you are going to perform a few terminal commands to get familiar with the Unix Environment along with some other standard tools used throughout this course (and that you will use in your career!).
 
 # Video tutorial of Lab 1
 
