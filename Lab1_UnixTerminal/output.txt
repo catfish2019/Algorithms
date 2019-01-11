@@ -1,11 +1,11 @@
 # Simply copy and paste the output from your terminal here!
-2.000000
-4.000000
-8.000000
-16.000000
-32.000000
-64.000000
-128.000000
-256.000000
-512.000000
-1024.000000
+power(2, 1) is 2.000000
+power(2, 2) is 4.000000
+power(2, 3) is 8.000000
+power(2, 4) is 16.000000
+power(2, 5) is 32.000000
+power(2, 6) is 64.000000
+power(2, 7) is 128.000000
+power(2, 8) is 256.000000
+power(2, 9) is 512.000000
+power(2, 10) is 1024.000000
