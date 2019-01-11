@@ -11,7 +11,8 @@ double power(double base, double n){
 int main(){
 for (int i = 1; i < 11; i++){
 double p = power(2, i);
-printf("%f\n", p);
+printf("power(2, %i) is %f\n", i, p);
 }
 return 0;
+
 }
