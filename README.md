@@ -1,7 +1,7 @@
 # Spring 19 Algorithms Monorepo
 
-* *Your name here* **(TODO: Change this heading to your name)**
-* *[Phonetic spelling](https://dictionary.cambridge.org/us/help/phonetics.html) of your name here* **(TODO: Change this)**
+* *Rouni Yin * **(TODO: Change this heading to your name)**
+* *['roʊnɪ jɪn](https://dictionary.cambridge.org/us/help/phonetics.html) of your name here* **(TODO: Change this)**
 
 ## Partners Spreadsheet
 (Lookup your weekly lab partner(s) here) 
@@ -13,7 +13,7 @@ https://docs.google.com/spreadsheets/d/1qVc8nBY6Yi-S0Jd9D6641zo9rdCBRMKoUMPvqxOh
 
 Note that all assignments are tested and graded on the Khoury web servers: `ssh your_user_name@login.khoury.neu.edu` (i.e. running an assignment on your Mac, is NOT the same environment as our Khoury servers which run a linux system).
 
-[Creating a Khoury account if you need one](https://www.khoury.northeastern.edu/systems/getting-started/) 
+[Creatihereng a Khoury account if you need one](https://www.khoury.northeastern.edu/systems/getting-started/) 
 
 ## The Monorepo
 
