@@ -1,12 +1,12 @@
 ### TODO Please edit the following information in your assignment
 
-- Name(s):
-- How many hours did it take you to complete this Assignment?
-- Did you collaborate with any other students/TAs/Professors?
-- Did you use any external resources? (Cite them below)
+- Name(s): Rouni Yin
+- How many hours did it take you to complete this Assignment? 3
+- Did you collaborate with any other students/TAs/Professors? No
+- Did you use any external resources? (Cite them below) No
   - tbd
   - tbd
-- (Optional) What was your favorite part of the assignment?
+- (Optional) What was your favorite part of the assignment? Generate the target number randomly.
 - (Optional) How would you improve the assignment?
 
 # Prompt
