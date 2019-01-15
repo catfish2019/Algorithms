@@ -5,6 +5,24 @@ In order to start thinking a bit algorithmically, modify this file and answer th
 
 1.) In the worst case in our guessing game--how many guesses could it take to get the right number if we had no hint at all? Explain.
 
-
+In worst case, it could take 10 guesses to get the right number.
+Since the target number is from 1 to 10 (inclusive).
+Imagine a case that the target is 10. We start our guessing from 1, 2, 3..., and we can't guess the same wrong number again. In 10th guessing, our guessing is 10, which is the target. This the worst case.
 
 2.) In the best case in our guessing game--how many guesses does it take to get the right number if we get a hint of 'higher or lower' when guessing numbers 1-10? *Hint* In your answer you might show this mathematically with the log function.
+
+In best case, it could take 4 guessing to get right number.
+Since we could get the hint of "higher or lower", our guesses can be considered as a process below:
+Assume the target number is 10.
+There is an integer array: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+Pick up the middle element: floor((1+10)/2) = 5
+Then we can get the hint 'guess higher'.
+So target is in the array: 6, 7, 8, 9, 10.
+Pick up the middle element: 8
+Then we get the hint 'guess higher'.
+So the target is in the array: 9, 10.
+Pick up the middle element: 9
+Then we get the hint 'guess higher'
+So the target is in array: 10
+And find it.
+In the process, we split the ordered array from the middle, and keep the righ/left part according to the hint. It would take floor(log2(10)) comparisons until the array is 1. Once there is only one element in the array, we have determine if it's the target. So it will take floor(log2(10)) + 1 = 4 guesses to get the right number.
