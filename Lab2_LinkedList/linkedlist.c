@@ -67,10 +67,9 @@ void free_list(node_t* list){
 
 
 int main(){
-node_t* t = create_list();
-print_list(t);
-free_list(t);  
- 
-    return 0;
+	node_t* t = create_list();
+	print_list(t);
+	free_list(t);  
+ 	return 0;
 }
 
