@@ -59,6 +59,10 @@ We are going to talk about stacks quite a lot in this course, so it will be impo
 # TODO: Put your answer here
 
 *My answer is ...*
+- Since the character of stack is LIFO, last in, first out. It is exactly how recursion works.
+  - When we call a recursive function f(n), we push f(n) into stack. In f(n), f(n-1) is called, then it will be pushed into the stack... Finally, f(0) is pushed into the stack.  
+  - Pop f(0) to get its value. Then pop f(1) to get its value using f(0), ... Finally, pop f(n) to get its value using f(n-1).
+- In some degree, stack is the foundation of recursion. 
 
 # Rubric
 
