@@ -57,6 +57,12 @@ Circular queues are used quite a bit in operating systems and high performance s
 # TODO: Put your answer here
 
 *My answer is ...*
+In a non-circular queue:
+The front pointer will +1 when remove the item from the queue, which is the same as that in circular queue. Then the position in the array which the former front pointer points to is empty.
+The back pointer will +1 when add a new item into the queue. When the back pointer points to the last position in the array, there is no chance for the new item to enter. So it will overflow if keeping adding a new one.
+But in fact there are empty position in the array. They are the ones which are used to hold the items removed. So it causes a waste of space.
+In a circulr queue:
+In the case mentioned above, the back pointer will then point the empty positions which are used to hold the items removed. It helps to prevent the "overflow" and save space.
 
 # Rubric
 
