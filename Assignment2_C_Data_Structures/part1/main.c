@@ -47,13 +47,15 @@ void unitTest1(){queue_t* test1 = create_queue(4);
     
     printf("Removing: %d\n",queue_dequeue(test1));
     printf("The size is %d.\n", queue_size(test1));
+    printf("Adding %d, status: %d\n" , 4, queue_enqueue(test1, 4));
     printf("Removing: %d\n",queue_dequeue(test1));
     printf("The size is %d.\n", queue_size(test1));
     printf("Removing: %d\n",queue_dequeue(test1));
     printf("The size is %d.\n", queue_size(test1));
     printf("Removing: %d\n",queue_dequeue(test1));
     printf("The size is %d.\n", queue_size(test1));
-    
+    printf("Removing: %d\n",queue_dequeue(test1)); 
+    printf("The size is %d.\n", queue_size(test1));
     free_queue(test1);
     
     
