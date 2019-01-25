@@ -5,7 +5,7 @@
 - Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
   - https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
-  - tbd
+  - https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
