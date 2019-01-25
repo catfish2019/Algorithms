@@ -4,7 +4,7 @@
 - How many hours did it take you to complete this assignment? 10
 - Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
-  - https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+  - https://en.wikipedia.org/wiki/Circular_buffer
   - https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
