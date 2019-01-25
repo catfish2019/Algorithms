@@ -36,7 +36,7 @@ queue_t* create_queue(unsigned int _capacity){
 		myQueue->data = (int*)malloc(sizeof(int)*_capacity);
    	 	myQueue->back = 0;
    	 	myQueue->front = 0;
-   	 	myQueue->size = myQueue->back - myQueue->front;
+   	 	myQueue->size = 0;
    	 	myQueue->capacity = _capacity + 1;
 	}
 	else{
@@ -87,7 +87,8 @@ int queue_enqueue(queue_t *q, int item){
     else{
         q->data[q->back] = item;
         q->back = (q->back + 1) % q->capacity;
-        return 0;
+	q->size ++;
+	return 0;
     }
 }
 
@@ -104,6 +105,7 @@ if (queue_empty(q)){
     else{
         int del = q->data[q->front];
         q->front = (q->front + 1) % q->capacity;
+	q->size --;
         return del; // Note: This line is a filler so the code compiles.
     }
 }
@@ -117,7 +119,7 @@ unsigned int queue_size(queue_t* q){
 		exit(1);
 	}
 	else{
-	return q->back - q->front;
+	return q->size;
 	}
 }
 
