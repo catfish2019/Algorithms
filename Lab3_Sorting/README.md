@@ -97,9 +97,9 @@ With your partner, discuss and answer the following questions:
 
 ## Answers:
 
-1. *edit your answer here for Part 2 question 1*
-2. *edit your answer here for Part 2 question 2*
-3. *edit your answer here for Part 2 question 3*
+1. O(n^2)
+2. n(n-1)/2
+3. No.
 
 # Deliverable
 
