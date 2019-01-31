@@ -30,7 +30,9 @@ int main(){
   TreeNode_t* f= malloc(sizeof(TreeNode_t));
   TreeNode_t* g= malloc(sizeof(TreeNode_t));
   TreeNode_t* h= malloc(sizeof(TreeNode_t));
-  
+
+  // The root of our tree  
+  // The root also has two 'branches' a and b.
   start->data = 's';
   start->left = a;
   start->right = b;
@@ -46,7 +48,12 @@ int main(){
   c->data = 'c';
   c->left = g;
   c->right = h;
+
   // All of the 'leaves' in our tree
+  d->data = 'd';
+  d->left = NULL;
+  d->right = NULL;   
+  
   e->data = 'e';
   e->left = NULL;
   e->right = NULL;
