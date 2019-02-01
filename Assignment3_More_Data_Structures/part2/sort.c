@@ -25,9 +25,8 @@ void swap(int* a, int* b){
 // Output: No value is returned, but 'array' should be modified to store a sorted array of numbers.
 void sortIntegers(int* array, unsigned int size){
 	for (int i = 0; i < size; i++){
-		int temp = array[i];
 		for (int j = i - 1; j >= 0; j--){
-			if (temp < array[j]){
+			if (array[j + 1] < array[j]){
 				swap(&array[j + 1], &array[j]);
 			}
 		}
