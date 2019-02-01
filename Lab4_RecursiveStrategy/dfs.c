@@ -15,7 +15,14 @@ typedef struct TreeNode{
 void dfs(TreeNode_t* start){
     // TODO: Hmm, how can I look through both branches of the node?
     //       Hmm, when do I stop?
-    //
+	printf("%c\n", start->data);
+	
+	if(start->left != NULL){
+		dfs(start->left);
+	}
+	if(start->right != NULL){
+		dfs(start->right);
+	}
 }
 
 int main(){
