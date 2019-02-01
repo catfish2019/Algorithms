@@ -57,9 +57,10 @@ Discuss and answer the following questions:
 
 ## Answers:
 
-1. *edit your answer here for Part 2 question 1*
-2. *edit your answer here for Part 2 question 2*
-3. *edit your answer here for Part 2 question 3*
+1. O(n*n)
+2. The best case is that the array is sorted, such as [1, 2, 3, 4 ,5]. The best-case complexity is n.
+3. It requires additional storage when swapping two elements.
+4. stable sorting algorithms: In sorting process, the two elements with equal keys are in the same order in the sorted output as they are in the input. Insertion sort is a stable algorithm.
 
 # Deliverable
 
