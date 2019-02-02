@@ -61,7 +61,7 @@ int dll_empty(dll_t* l){
 // (i.e. the memory allocation for a new node failed).
 int dll_push_front(dll_t* l, int item){
     	node_t* temp = (node_t*)malloc(sizeof(node_t));
-    	if(temp == NULL){
+    	if(temp == NULL || l == NULL){
         	return -1;
     	}	
     	else if (dll_empty(l)){
@@ -87,7 +87,7 @@ int dll_push_front(dll_t* l, int item){
 // (i.e. the memory allocation for a new node failed).
 int dll_push_back(dll_t* l, int item){
     	node_t* temp = (node_t*)malloc(sizeof(node_t));
-    	if(temp == NULL){
+    	if(temp == NULL || l == NULL){
         	return -1;
     	}	
     	else if (dll_empty(l)){
@@ -112,7 +112,7 @@ int dll_push_back(dll_t* l, int item){
 // Removes an item from the DLL.
 // Removing from an empty DLL should crash the program, call exit(1).
 int dll_pop_front(dll_t* t){
-	if(dll_empty(t)){
+	if(dll_empty(t) || t == NULL){
         	free_dll(t);
         	exit(1);
     	}	
@@ -137,7 +137,7 @@ int dll_pop_front(dll_t* t){
 // Removes the last item from the DLL.
 // Removing from an empty DLL should crash the program, call exit(1).
 int dll_pop_back(dll_t* t){
-    	if(dll_empty(t)){
+    	if(dll_empty(t) || t == NULL){
         	free_dll(t);
         	exit(1);
     	}	
@@ -162,7 +162,7 @@ int dll_pop_back(dll_t* t){
 //  a position past the size of the DLL ).
 int dll_insert(dll_t* l, int pos, int item){
 node_t* temp = (node_t*)malloc(sizeof(node_t));
-    	if(temp == NULL || pos < 0 || pos > l->count){
+    	if(temp == NULL || l == NULL || pos < 0 || pos > l->count){
         	free(temp);
 		return -1;
     	}	
@@ -193,7 +193,7 @@ node_t* temp = (node_t*)malloc(sizeof(node_t));
 // Returns -1 if the position is negative or trying to retrive an item at or past the size,
 // or the list is empty.
 int dll_get(dll_t* l, int pos){
- 	if (pos < 0 || pos >= l->count || dll_empty(l)){
+ 	if (pos < 0 || pos >= l->count || dll_empty(l) || l == NULL){
         	return -1;
     	}
     	else{
@@ -209,7 +209,7 @@ int dll_get(dll_t* l, int pos){
 // Returns -1 if the position is negative or trying to remove an item at or past the size,
 // or if the list is empty
 int dll_remove(dll_t* l, int pos){
- 	if (pos < 0 || pos >= l->count || dll_empty(l)){
+ 	if (pos < 0 || pos >= l->count || dll_empty(l) || l == NULL){
         	return -1;
     	}
     	int del;
