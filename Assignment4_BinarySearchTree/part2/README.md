@@ -63,10 +63,10 @@ Discuss and answer the following questions:
 
 ## Answers:
 
-1. *edit your answer here for Part 2 question 1*
-2. *edit your answer here for Part 2 question 2*
-3. *edit your answer here for Part 2 question 3*
-4. *edit your answer here for Part 2 question 4*
+1. O(nlgn)
+2. n
+3. Yes, it requires additional storage for the sub-arrays.
+4. O(lgn)
 
 
 # Deliverable
