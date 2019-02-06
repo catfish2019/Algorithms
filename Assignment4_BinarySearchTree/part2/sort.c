@@ -10,6 +10,43 @@
 // Second subarray is arr[m+1..r] 
 void merge(int arr[], int l, int m, int r) {
   //TODO: implement merge.
+	int low[m - l +1];
+	int high[r -m];
+	int i = 0;
+	int j = 0;
+	for(int p = l; p <= m; p++, i++){
+		low[i] = arr[p];
+	}
+	for(int q = m + 1; q <= r; q++, j++){
+		high[j] = arr[q];
+	}
+	
+	i = 0;
+	j = 0;
+	int k = l;
+
+	while(i < (m - l + 1) && j < (r - m)){
+		if (low[i] < high[j]){
+			arr[k] = low[i];
+			i ++;
+		}
+		else{
+			arr[k] = high[j];
+			j++;
+		}
+		k++;
+	}
+	while(i < (m - l + 1)){
+		arr[k] = low[i];
+		k ++;
+		i ++;
+	}
+	while(j < (r - m)){
+		arr[k] = high[j];
+		j ++;
+		k ++;
+	}
+
 }
 
 // Provided below is a sort function. We have also
@@ -21,8 +58,17 @@ void merge(int arr[], int l, int m, int r) {
 //              This is the start of some 'contiguous block of memory' that we will sort.
 //          (2) 'size' tells us how big the array of data is we are sorting.
 // Output: No value is returned, but 'array' should be modified to store a sorted array of numbers.
+void mergeSort(int arr[], int l, int r){
+	if(r > l){
+		mergeSort(arr, l, (l + r) / 2);
+		mergeSort(arr, (l + r) / 2 + 1, r);
+
+		merge(arr, l, (l + r) / 2, r);
+	}
+}
 void sortIntegers(int* array, unsigned int size){
     // TODO: Implement merge sort
+	mergeSort(array, 0, size - 1);
 }
 
 
