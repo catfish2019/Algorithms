@@ -145,8 +145,8 @@ Okay, now that you understand the data structure, you will implement two functio
 
 Your answers here:
 
-1. *edit your response*
-2. *edit your response*
+1. O(n*n)
+2. No，all the nodes are represented in both row and columns.
 
 
 ## Compiling and running the program.
@@ -195,7 +195,8 @@ eat exercise
 
 Your answer:
 
-1. *edit your response*
+1. You wouldn't run it on an undirected graph, since we can't specify the oder when topological sorting on a undirected graph. We can use DFS t detect the cycle since when there is a cycle in the graph, we'll visit a same node twice.
+
 
 
 # Deliverable
