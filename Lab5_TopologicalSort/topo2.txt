@@ -1,2 +1,10 @@
 eat sleep
 eat exercise
+eat walk
+sleep work
+walk run
+sleep wake_up
+wake_up shower
+shower dry_hair
+dry_hair make_up
+make_up brush_teeth
