@@ -90,19 +90,27 @@ void printGraph(int* g){
 // For a given node 'n' in an adjaceny matrix,
 // compute the degree.
 int nodeDegree(int* g, int node){
-    // TODO
-    return 999999;
-}
-
+        int j;
+        int counter = 0;
+        
+        for(j = 0; j < COLUMNS; j++){
+            if(g[node*ROWS+j] == 1){
+                counter += 1;
+            }
+        }
+        return counter;
+    }
 
 // Figure out if two nodes are connected
 // Returns a 1 if node1 is connected to node 2
 int isConnected(int* g, int node1, int node2){
-    // TODO
+    if(g[node1*ROWS + node2] == 1){
+        return 1;
+    }
+    
     return 0;
-}
-
-int main(){
+}  
+ int main(){
  
     int g_testgraph[ROWS][COLUMNS];
     // Generate a random graph
