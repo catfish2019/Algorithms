@@ -64,7 +64,7 @@ Discuss and answer the following questions:
 ## Answers:
 
 1. O(nlgn)
-2. n
+2. O(nlgn)
 3. Yes, it requires additional storage for the sub-arrays.
 4. O(lgn)
 
