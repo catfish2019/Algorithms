@@ -66,7 +66,7 @@ Discuss and answer the following questions:
 1. O(nlgn)
 2. O(nlgn)
 3. Yes, it requires additional storage for the sub-arrays.
-4. O(lgn)
+4. O(nlgn)
 
 
 # Deliverable
