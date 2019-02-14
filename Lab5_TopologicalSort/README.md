@@ -195,7 +195,7 @@ eat exercise
 
 Your answer:
 
-1. You wouldn't run it on an undirected graph, since we can't specify the oder when topological sorting on a undirected graph. We can use DFS t detect the cycle since when there is a cycle in the graph, we'll visit a same node twice.
+1. You wouldn't run it on an undirected graph, since we can't specify the order when topological sorting on a undirected graph. We can use DFS to detect the cycle since when there is a cycle in the graph, we'll visit a same node twice.
 
 
 
