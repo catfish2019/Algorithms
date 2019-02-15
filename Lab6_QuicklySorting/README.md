@@ -98,7 +98,9 @@ void swapStrings(char** s1, char** s2){
 
 **Answer the following with your partner:** How do you think the strcmp function is implemented? i.e. What would your algorithm be in a sentence or two?
 
-*edit your answer here*
+Assuming that we aren't concerned about considering uppercase/lowercase values, the strcmp function would take two strings. We would then compare  the first letter ascii of both strings. If string1 letter < string2 letter, return -1. If string1 letter > string2 letter, return 1. If equal, continue iterating through both strings using a for loop. If we get to the end of both strings, return 0, meaning the two strings are the same.
+
+
 
 # Part 3 - Quick sort
 
