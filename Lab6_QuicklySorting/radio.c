@@ -71,19 +71,34 @@ void bruteForceSort(char** array, unsigned int start, unsigned int end){
 // @Name    partition
 // @Brief   Helper funcion for quicksort
 int partition(char** array, unsigned int low, unsigned int high){
-    // TODO:
+    	char** pivot = &array[high];
+//	printf("%s\n", *pivot);
+	int i = low-1;
+	for(int j = low; j <= high -1;j++){
+		if(strcmp(array[j], *pivot) < 0){
+			i ++;
+			swapStrings(&array[i], &array[j]);
+		}
+	}
+	swapStrings(&array[i+1], &array[high]);
+	return (i +1);
 }
 
 void quicksort(char** array, unsigned int low, unsigned int high){
     // TODO:
+    if (low < high){
+	int pivot = partition(array, low, high);
+	quicksort(array, low, pivot -1);
+	quicksort(array, pivot+1, high);
+	}
 }
 
 
 int main(){
   // Load our unsorted music file
   // We load two copies, as we will compare two sorting algorithms.
-  char** musicDatabase1 = loadMusicFile("./musicdatabase.txt",13609);
-  char** musicDatabase2 = loadMusicFile("./musicdatabase.txt",13609);
+  char** musicDatabase1 = loadMusicFile("./musicdatabase.txt",13610);
+  char** musicDatabase2 = loadMusicFile("./musicdatabase.txt",13610);
   // Print out a portion of the music database.
   printf("The first 10 entries of 13609 unsorted are...\n"); 
   printArrayOfCharStrings(musicDatabase1,0,10);
