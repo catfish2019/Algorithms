@@ -61,7 +61,10 @@ Circular queues are used quite a bit in operating systems and high performance s
   - The back pointer will +1 when add a new item into the queue. When the back pointer points to the last position in the array, there is no chance for the new item to enter. So it will overflow if keeping adding a new one.
 But in fact there are empty position in the array. They are the ones which are used to hold the items removed. So it causes a waste of space.
 - In a circulr queue:
+  - A circular queue is a data structure that uses a single, fixed-size buffer as if it were connected end-to-end. This stucture lends itself easier to buffering data streams.
   - In the case mentioned above, the back pointer will then point the empty positions which are used to hold the items removed. It helps to prevent the "overflow" and save space.
+  - The useful property of a circular buffer is that it does not need to have its elements shuffled around when one is consumed. (If a non-circular buffer were used then it would be necessary to shift all elements when one is consumed.)
+  - Circular buffering makes a good implementation strategy for a queue that has fixed maximum size. Should a maximum size be adopted for a queue, then a circular buffer is a completely ideal implementation; all queue operations are constant time. However, expanding a circular buffer requires shifting memory, which is comparatively costly. For arbitrarily expanding queues, a linked list approach may be preferred instead.
 
 # Rubric
 
