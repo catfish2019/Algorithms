@@ -59,10 +59,18 @@ We are going to talk about stacks quite a lot in this course, so it will be impo
 # TODO: Put your answer here
 
 *My answer is ...*
+- The name "stack" for this type of structure comes from the analogy to a set of physical items stacked on top of each other, which makes it easy to take an item off the top of the stack, while getting to an item deeper in the stack may require taking off multiple other items first.
+- Considered as a linear data structure, or more abstractly a sequential collection, the push and pop operations occur only at one end of the structure, referred to as the top of the stack. This makes it possible to implement a stack as a singly linked list and a pointer to the top element. A stack may be implemented to have a bounded capacity. If the stack is full and does not contain enough space to accept an entity to be pushed, the stack is then considered to be in an overflow state. 
 - Since the character of stack is LIFO, last in, first out. It is exactly how recursion works.
   - When we call a recursive function f(n), we push f(n) into stack. In f(n), f(n-1) is called, then it will be pushed into the stack... Finally, f(0) is pushed into the stack.  
   - Pop f(0) to get its value. Then pop f(1) to get its value using f(0), ... Finally, pop f(n) to get its value using f(n-1).
 - In some degree, stack is the foundation of recursion. 
+- A common use of stacks at the architecture level is as a means of allocating and accessing memory. A stack is usually represented in computers by a block of memory cells, with the "bottom" at a fixed location, and the stack pointer holding the address of the current "top" cell in the stack. The top and bottom terminology are used irrespective of whether the stack actually grows towards lower memory addresses or towards higher memory addresses.
+- Application of stacks:
+  - Expression evaluation and syntax parsing: Calculators employing reverse Polish notation use a stack structure to hold values. 
+  - Backtracking: e.g. DFS
+  - Compile time memory management:A number of programming languages are stack-oriented, meaning they define most basic operations (adding two numbers, printing a character) as taking their arguments from the stack, and placing any return values back on the stack. Some programming languages use the stack to store data that is local to a procedure.
+  - Efficient algorithms.
 
 # Rubric
 
